@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap'); 
+
+/* NAVBAR */
+.container {
+   max-width: 1300px;
+   margin: 0 auto; 
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    font-family: "Inter";
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.navbar li {
+    color: hsl(236, 13%, 42%);
+}
+
+.navbar li:hover {
+    color: hsl(5, 85%, 63%);
+} 
+
+/* MAIN SITE */
+
+.news {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: "Inter";
+    font-weight: 500;
+    background-color: hsl(240, 100%, 5%);
+    float: right;
+    width: 438px;
+    height: 558px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -569px;
+    margin-left: 23px;
+}
+
+.borders {
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+    margin: 20px;
+}
+
+h1 {
+    color: black;
+    font-family: "Inter";
+    font-size: 50px;
+    width: 327px;
+}
+
+h2 {
+    color: hsl(35, 77%, 62%);
+}
+
+.newsName {
+    color: white;
+}
+
+.text {
+    color: white;
+}
+
+
+
+.buttonArea {
+    width: 241px;
+    height: 0px;
+    position: relative;
+    bottom: 202px;
+    left: 531px;
+}
+
+.information {
+    font-family: "Inter";
+    color: hsl(236, 13%, 42%);
+    font-weight: 400px;
+}
+
+.readMore {
+    background-color: hsl(5, 85%, 63%);
+    width: 20px;
+    color: white;
+    width: 135px;
+    height: 46px;
+    border: none;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.articlePoints {
+    display: flex;
+    grid-column: 3 span;
+    grid-row: 1 span;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.retroPc {
+    display: flex;
+    
+}
+
+.blogImg {
+    height: 160px;
+}
+
+.blogInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+    position: relative;
+    bottom: 27px;
+    font-family: "Inter";
+    font-weight: 500;
+    color: black;
+}
+
+.number {
+    color: hsl(233, 8%, 79%);
+}
+
+.infos {
+    color: black;
+}
+
